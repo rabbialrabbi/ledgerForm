@@ -1,0 +1,188 @@
+body{
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+.container{
+    background-color: #F8F8F8;
+}
+.ledger_form{
+    padding: 50px;
+}
+
+
+
+
+.colon{
+    padding-right: 50px;
+}
+
+input[type=text]{
+    height: 30px;
+    padding: 0 0 0 5px;
+    font-size: 85%;
+    margin-right: 20px;
+    margin-bottom: 30px;
+
+}
+
+.ledger_row-1 input{
+    width: 100px;
+}
+
+.ledger_row-2 input {
+    width: 300px;
+}
+
+.ledger_row-3 input{
+    width: 240px;
+}
+
+.ledger_row-6 input{
+    width: 300px;
+}
+.ledger_row-7 input{
+    width: 500px;
+}
+
+.ledger_row-8 input{
+    width: 100px;
+}
+
+.ledger_row-9 input{
+    width: 400px;
+}
+
+.ledger_row-10{
+    margin-top: 20px;
+}
+.ledger_row-10 button{
+    /*border: none;*/
+    width: 100px;
+    height: 35px;
+    margin-right: 20px;
+}
+.ledger_row-5 i, .ledger_row-3 i{
+    font-size: 14px;
+    color: green;
+}
+
+.ledger_table-button {
+    padding: 10px 50px;
+}
+.ledger_table table {
+    text-align: center;
+    width: 100%;
+    padding-left: -15px;
+    padding-right: -15px;
+    border: 1px solid #C3C3C3;
+}
+.bottom_row{
+    border-bottom: 1px solid #C3C3C3;
+}
+
+.ledger_table table th{
+    background-color: #DCDCDC;
+    width: 10%;
+    font-size: 14px;
+    border-right: 1px solid #C3C3C3;
+
+}
+.ledger_table table td{
+    border: 1px solid #C3C3C3;
+    background-color: white;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.ledger_table-aline{
+    transform: translateY(50%);
+}
+
+/* purchase design section */
+
+.purchase_heading{
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bolder;
+    padding: 20px 20px 40px 20px;
+}
+
+.purchase_form{
+    background-color:#F8F8F8 ;
+}
+
+.purchase_row-1 input{
+    width: 80px;
+}
+.purchase_row-2 input{
+    width: 100px;
+}
+.purchase_row-3 input{
+     width: 120px;
+ }
+.purchase_row-4 input{
+    margin: 0;
+    width: 170px;
+}
+.purchase_row-5 input{
+    width: 400px;
+}
+.purchase_row-6 input{
+    width: 500px;
+}
+.purchase_table{
+    padding: 40px;
+}
+.purchase_table table{
+    width: 100%;
+    text-align: center;
+}
+
+.purchase_table th,td{
+    width: 6.25%;
+    border: 1px solid #C3C3C3;
+}
+
+.ledger-table_heading{
+    background-color: #DCDCDC;
+}
+.purchase_table th{
+    padding: 5px;
+}
+
+.purchase_table td{
+    font-weight: lighter;
+    background-color: white;
+}
+.purchase_button .col-12{
+    padding: 40px;
+    text-align: center;
+}
+.purchase_button button{
+    width: 100px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+/*sale design begins here*/
+
+.sale-inline_form input[type=text]{
+    margin: 0;
+    width: 170px;
+}
+.sale-inline_form p{
+    margin-bottom: 4px;
+}
+.sale-inline_form div{
+    display: inline-block;
+    width: 150px;
+}
+.sale_table{
+    padding: 20px;
+}
+.sale_button .col-12{
+    padding: 20px;
+    text-align: center;
+}

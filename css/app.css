@@ -12,6 +12,10 @@ body{
 }
 
 
+i {
+
+
+}
 
 
 .colon{
@@ -57,16 +61,35 @@ input[type=text]{
 .ledger_row-10{
     margin-top: 20px;
 }
+
 .ledger_row-10 button{
     /*border: none;*/
     width: 100px;
     height: 35px;
     margin-right: 20px;
 }
-.ledger_row-5 i, .ledger_row-3 i{
+
+.fa-plus {
+    padding: 8px;
+    border-radius: 10px;
     font-size: 14px;
     color: green;
 }
+
+.fa-minus{
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: darkred;
+}
+
+i:hover{
+    background-color: lightgray;
+}
+
+
+
+
 
 .ledger_table-button {
     padding: 10px 50px;
